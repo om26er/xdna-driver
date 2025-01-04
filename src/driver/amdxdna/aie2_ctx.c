@@ -17,6 +17,8 @@
 #include "amdxdna_devel.h"
 #endif
 
+MODULE_IMPORT_NS(hmm_range_fault);
+
 bool force_cmdlist;
 module_param(force_cmdlist, bool, 0600);
 MODULE_PARM_DESC(force_cmdlist, "Force use command list (Default false)");
